@@ -9,7 +9,6 @@ public class Main {
 
         public ThreadPool(int size) {
             initWorkers(size);
-            
         }
 
         public void execute(Runnable newTask) {
